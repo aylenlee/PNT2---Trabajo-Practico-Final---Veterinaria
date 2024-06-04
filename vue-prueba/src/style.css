@@ -77,3 +77,10 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.navbar{
+  padding: 10px;
+  display: flex;
+  justify-content: center; 
+  gap: 30px;
+}
