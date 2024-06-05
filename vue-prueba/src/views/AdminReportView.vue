@@ -1,7 +1,7 @@
 <template>
     <div>
-        <h1>Home o.O</h1>
-        <P>Welcome to the home page!!</P>
+        <h1>Admin Report</h1>
+        <P>Visible solo para administradores</P>
     </div>
 </template>
 

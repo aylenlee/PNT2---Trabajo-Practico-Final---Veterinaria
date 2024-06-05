@@ -1,32 +1,45 @@
 <script setup>
-import Home from './Home.vue';
-import Turnos from './Turnos.vue';
-import Adopcion from './Adopcion.vue';
-
+import Navbar from './components/Navbar.vue'
 </script>
 
 <template>
- <div>
-  <nav class="navbar">
-    <router-link to="/">Home</router-link>
-    <router-link to="/turnos">Turnos</router-link>
-    <router-link to="/adopcion">Adopcion</router-link>
-  </nav>
-  <router-view></router-view>
+ <div id="app">
+    <main class="flex-grow-1">
+        <Navbar />
+        <router-view></router-view>
+    </main>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark text-white">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-white text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-white">© 2014 Animal Center Veterinaria</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-white" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="text-white" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="text-white" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </footer>
  </div>
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+html, body {
+  height: 100%;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: lightgrey;
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+
+footer {
+  background-color: #212529;
+  color: #fff;
 }
 </style>
