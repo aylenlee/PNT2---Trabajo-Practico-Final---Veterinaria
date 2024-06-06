@@ -17,17 +17,17 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="user in users" :key="user.id">
-          <td>{{ user.id }}</td>
-          <td>{{ user.name }}</td>
-          <td>{{ user.email }}</td>
-          <td>{{ user.species }}</td>
-          <td>{{ user.breed }}</td>
-          <td>{{ user.sex }}</td>
-          <td>{{ user.age }}</td>
-          <td>{{ user.ownerName }}</td>
-          <td>{{ user.historialClinico }}</td>
-          <td>{{ user.createdAt }}</td>
+        <tr v-for="patient in patients" :key="patient.id">
+          <td>{{ patient.id }}</td>
+          <td>{{ patient.name }}</td>
+          <td>{{ patient.email }}</td>
+          <td>{{ patient.species }}</td>
+          <td>{{ patient.breed }}</td>
+          <td>{{ patient.sex }}</td>
+          <td>{{ patient.age }}</td>
+          <td>{{ patient.ownerName }}</td>
+          <td>{{ patient.historialClinico }}</td>
+          <td>{{ patient.createdAt }}</td>
         </tr>
       </tbody>
     </table>
@@ -38,19 +38,19 @@
 import { onMounted, ref } from 'vue';
 import axios from 'axios';
 
-const users = ref([]);
+const patients = ref([]);
 
-const fetchUsers = async () => {
+const fetchpatients = async () => {
   try {
-    const response = await axios.get('https://666112b663e6a0189fe85cb5.mockapi.io/users');
-    users.value = response.data;
+    const response = await axios.get('https://666112b663e6a0189fe85cb5.mockapi.io/patients');
+    patients.value = response.data;
   } catch (error) {
     console.error('Error al obtener los usuarios');
   }
 };
 
 onMounted(() => {
-  fetchUsers();
+  fetchpatients();
 });
 
 </script>
