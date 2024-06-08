@@ -7,6 +7,10 @@ import AdminReport from './views/AdminReportView.vue';
 import Login from './components/Login.vue';
 import Dashboard from './components/Dashboard.vue';
 import Logout from './components/Logout.vue';
+import EditPatient from './views/EditPatientView.vue'
+import DeletePatient from './views/DeletePatientView.vue'
+import AddPatient from './views/AddPatientView.vue'
+
 
 const routes = [
     { path: '/', name: 'Home', component: Home },
@@ -17,7 +21,9 @@ const routes = [
     { path: '/login', name: 'Login', component: Login },
     { path: '/dashboard', name: 'Dashboard', component: Dashboard },
     { path: '/logout', name: 'Logout', component: Logout },
-
+    { path: '/edit-patient', name: 'EditPatient', component: EditPatient, meta: {requiresAdmin: true}},
+    { path: '/delete-patient', name: 'DeletePatient', component: DeletePatient, meta: {requiresAdmin: true}},
+    { path: '/add-patient', name: 'AddPatient', component: AddPatient, meta: {requiresAdmin: true}}
 ];
 
 const router = createRouter({

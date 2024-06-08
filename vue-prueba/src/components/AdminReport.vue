@@ -1,6 +1,8 @@
 <template>
-    <div>
+    <div class="container">
     <h2>Lista de Pacientes</h2>
+    <router-link to="/add-patient">Agregar Paciente</router-link>
+    <br><br>
     <table class="table table-striped">
       <thead>
         <tr>
@@ -28,9 +30,15 @@
           <td>{{ patient.ownerName }}</td>
           <td>{{ patient.historialClinico }}</td>
           <td>{{ patient.createdAt }}</td>
+          <td>
+            <router-link :to="{ name: 'EditPatient', params: { id: patient.id } }">Editar</router-link>
+            <br>
+            <router-link :to="{ name: 'DeletePatient', params: { id: patient.id } }">Eliminar</router-link>
+          </td>
         </tr>
       </tbody>
     </table>
+    <router-view></router-view>
   </div>
 </template>
 

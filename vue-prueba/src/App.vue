@@ -22,7 +22,7 @@ html, body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: lightgrey;
+  background-color: white;
 }
 
 footer {
