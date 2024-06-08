@@ -2,7 +2,7 @@
 import EditPatient from '../components/EditPatient.vue';
 </script>
 
-<template >
+<template>
     <div>
         <EditPatient />
     </div>
