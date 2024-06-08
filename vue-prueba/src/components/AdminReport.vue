@@ -16,6 +16,8 @@
           <th>Nombre del propietario</th>
           <th>Historial clínico</th>
           <th>Fecha de creación</th>
+          <th></th>
+          <th></th>
         </tr>
       </thead>
       <tbody>
@@ -32,7 +34,8 @@
           <td>{{ patient.createdAt }}</td>
           <td>
             <router-link :to="{ name: 'EditPatient', params: { id: patient.id } }">Editar</router-link>
-            <br>
+          </td>
+          <td>
             <router-link :to="{ name: 'DeletePatient', params: { id: patient.id } }">Eliminar</router-link>
           </td>
         </tr>
