@@ -21,8 +21,8 @@ const routes = [
     { path: '/login', name: 'Login', component: Login },
     { path: '/dashboard', name: 'Dashboard', component: Dashboard },
     { path: '/logout', name: 'Logout', component: Logout },
-    { path: '/edit-patient', name: 'EditPatient', component: EditPatient, meta: {requiresAdmin: true}},
-    { path: '/delete-patient', name: 'DeletePatient', component: DeletePatient, meta: {requiresAdmin: true}},
+    { path: '/edit-patient/:id', name: 'EditPatient', component: EditPatient, meta: {requiresAdmin: true}},
+    { path: '/delete-patient/:id', name: 'DeletePatient', component: DeletePatient, meta: {requiresAdmin: true}},
     { path: '/add-patient', name: 'AddPatient', component: AddPatient, meta: {requiresAdmin: true}}
 ];
 

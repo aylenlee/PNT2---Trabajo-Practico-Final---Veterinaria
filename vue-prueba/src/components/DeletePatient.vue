@@ -26,8 +26,9 @@ onMounted(async () => {
 });
 
 const deletePatient = async () => {
+    const patientId = route.params.id;
     try {
-        await axios.delete(`https://666112b663e6a0189fe85cb5.mockapi.io/patients/${patient.value.id}`);
+        await axios.delete(`https://666112b663e6a0189fe85cb5.mockapi.io/patients/${patientId}`);
         console.log('Paciente eliminado con éxito');
         router.push('/admin-report');
     } catch (error) {
