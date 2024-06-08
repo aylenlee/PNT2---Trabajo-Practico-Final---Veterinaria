@@ -8,7 +8,7 @@
             </div>
             <div class="mb-3">
                 <label for="mail" class="form-label">Mail</label>
-                <input type="email" class="form-control" id="mail" placeholder="Mail" v-model="patient.mail" required>
+                <input type="email" class="form-control" id="mail" placeholder="Mail" v-model="patient.email" required>
             </div>
             <div class="mb-3">
                 <label for="species" class="form-label">Especie</label>
@@ -20,11 +20,7 @@
             </div>
             <div class="mb-3">
                 <label for="sex" class="form-label">Sexo</label>
-                <select class="form-control" id="sex" v-model="patient.sex" required>
-                    <option value="Macho">Macho</option>
-                    <option value="Hembra">Hembra</option>
-                </select>
-
+                <input type="text" class="form-control" id="sex" placeholder="Sexo" v-model="patient.sex" required>
             </div>
             <div class="mb-3">
                 <label for="age" class="form-label">Edad</label>
@@ -53,7 +49,7 @@ import axios from 'axios';
 
 const patient = ref({
     name: '',
-    mail: '',
+    email: '',
     species: '',
     breed: '',
     sex: '',
