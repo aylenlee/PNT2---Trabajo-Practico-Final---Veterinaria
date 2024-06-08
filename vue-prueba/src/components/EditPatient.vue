@@ -20,7 +20,10 @@
             </div>
             <div class="mb-3">
                 <label for="sex" class="form-label">Sexo</label>
-                <input type="text" class="form-control" id="sex" placeholder="Sexo" v-model="patient.sex" required>
+                <select class="form-control" id="sex" v-model="patient.sex" required>
+                    <option value="male">Macho</option>
+                    <option value="female">Hembra</option>
+                </select>
             </div>
             <div class="mb-3">
                 <label for="age" class="form-label">Edad</label>

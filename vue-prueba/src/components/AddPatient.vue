@@ -21,8 +21,8 @@
             <div class="mb-3">
                 <label for="sex" class="form-label">Sexo</label>
                 <select class="form-control" id="sex" v-model="patient.sex" required>
-                    <option value="Macho">Macho</option>
-                    <option value="Hembra">Hembra</option>
+                    <option value="male">Macho</option>
+                    <option value="female">Hembra</option>
                 </select>
             </div>
             <div class="mb-3">

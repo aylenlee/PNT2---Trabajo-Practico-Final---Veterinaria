@@ -17,8 +17,10 @@
           <li class="nav-item">
               <router-link class="nav-link" to="/adopcion">Adopcion</router-link>
           </li>
+        </ul>
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-              <router-link class="nav-link" to="/login">Login</router-link>
+            <router-link class="nav-link" to="/login">Login</router-link>
           </li>
         </ul>
       </div>
@@ -41,4 +43,5 @@
   <style scoped>
       
   </style>
+
 
