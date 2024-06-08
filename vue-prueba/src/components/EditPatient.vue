@@ -38,7 +38,7 @@
                 <textarea class="form-control" id="historialClinico" placeholder="Historial Clínico" v-model="patient.historialClinico" required></textarea>
             </div>
             <div class="col-12">
-                <button type="button" class="btn btn-primary" @click="cancelEdit">Cancelar</button>
+                <button type="button" class="btn btn-secondary m-2" @click="cancelEdit">Cancelar</button>
                 <button type="submit" class="btn btn-primary">Actualizar</button>
             </div>
         </form>

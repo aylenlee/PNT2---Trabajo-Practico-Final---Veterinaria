@@ -1,7 +1,7 @@
 <template>
     <div class="text-center">
         <h3>¿Está seguro que quiere eliminar este paciente {{ patient.name }}?</h3>
-        <button @click="cancelDelete">Cancelar</button>
+        <button class="btn btn-secondary m-2" @click="cancelDelete">Cancelar</button>
         <button @click="deletePatient" class="btn btn-danger">Eliminar Paciente</button>
     </div>
 </template>
