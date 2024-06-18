@@ -2,7 +2,7 @@
 
     <body>
         <div class="container mt-5">
-            <h1 class="display-4 text-center">Veterinaria Animal Center</h1>
+            <h1 class="display-4 text-center"><b>Veterinaria Animal Center</b></h1>
             <p class="lead text-center">Welcome to the home page!!</p>
         </div>
         <div id="carouselExampleFade" class="carousel slide carousel-fade container-fluid p-0" data-bs-ride="carousel">
@@ -47,9 +47,10 @@
                     </p>
                 </div>
             </div>
+            <br>
             <div>
                 <h2>Servicios</h2>
-                <div class="row">
+                <div class="row mt-2">
                     <div class="col-md-4">
                         <div class="card">
                             <img src="../assets/imagenes/consulta.jpg" class="card-img-top" alt="...">
@@ -78,7 +79,7 @@
                 </div>
             </div>
             <br>
-            <div class="row">
+            <div class="row mt-2">
                 <div class="col-md-4">
                     <div class="card">
                         <img src="../assets/imagenes/odonto.jpg" class="" alt="...">

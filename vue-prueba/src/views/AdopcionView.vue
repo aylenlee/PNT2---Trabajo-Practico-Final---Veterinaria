@@ -2,7 +2,7 @@
 
     <body>
         <div class="container mt-5">
-            <h1 class="display-4 text-center">Adopción de animales</h1>
+            <h1 class="display-4 text-center"><b>Adopción de animales</b></h1>
             <br>
             <div class="row">
                 <div class="col-md-4">
