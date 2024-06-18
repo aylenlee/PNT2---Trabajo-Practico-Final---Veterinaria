@@ -52,60 +52,61 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card">
-                            <img src="" class="" alt="...">
+                            <img src="../assets/imagenes/consulta.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Consultas Generales</h5>
                             </div>
                         </div>
                     </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img src="" class="" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Vacunaciones</h5>
-                                </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="../assets/imagenes/vacuna.jpg" class="" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Vacunaciones</h5>
                             </div>
                         </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <img src="" class="" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Cirugía</h5>
-                                    </div>
-                                </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="../assets/imagenes/cirugia.jpg" class="" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Cirugía</h5>
                             </div>
-                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../assets/imagenes/odonto.jpg" class="" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Odontología</h5>
+                        </div>
                     </div>
                 </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                        <div class="card">
-                            <img src="" class="" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Odontología</h5>
-                            </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../assets/imagenes/nutricion.jpg" class="" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nutrición</h5>
                         </div>
                     </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img src="" class="" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Nutrición</h5>
-                                </div>
-                            </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../assets/imagenes/emergencias.jpg" class="" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Emergencias</h5>
                         </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <img src="" class="" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Emergencias</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                            
                     </div>
-                
+                </div>
+            </div>
+
+        </div>
+
     </body>
 
 
