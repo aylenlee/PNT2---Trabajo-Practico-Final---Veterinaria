@@ -7,7 +7,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
               <router-link class="nav-link" to="/">Home</router-link>
           </li>
@@ -17,8 +17,6 @@
           <li class="nav-item">
               <router-link class="nav-link" to="/adopcion">Adopcion</router-link>
           </li>
-        </ul>
-        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <router-link class="nav-link" to="/login">Login</router-link>
           </li>
@@ -41,7 +39,7 @@
   </script>
 
   <style scoped>
-      
+
   </style>
 
 

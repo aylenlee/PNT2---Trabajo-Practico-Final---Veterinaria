@@ -38,8 +38,8 @@
                 <textarea class="form-control" id="historialClinico" placeholder="Historial Clínico" v-model="patient.historialClinico" required></textarea>
             </div>
             <div class="col-12">
-                <button type="button" class="btn btn-primary" @click="cancelAdd">Cancelar</button>
-                <button type="submit" class="btn btn-primary">Agregar</button>
+                <button type="button" class="btn btn-danger m-2" @click="cancelAdd">Cancelar</button>
+                <button type="submit" class="btn btn-success">Agregar</button>
             </div>
         </form>
     </div>
