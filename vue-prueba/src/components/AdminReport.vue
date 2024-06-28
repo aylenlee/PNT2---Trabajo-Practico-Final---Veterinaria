@@ -31,7 +31,7 @@
           <td>{{ patient.age }}</td>
           <td>{{ patient.ownerName }}</td>
           <td>{{ patient.historialClinico }}</td>
-          <td>{{ patient.createdAt }}</td>
+          <td>{{ new Date(patient.createdAt).getDate().toLocaleString() + '/' + (new Date(patient.createdAt).getDate()+1).toLocaleString() + '/' + new Date(patient.createdAt).getFullYear().toFixed() }}</td>
           <td>
             <router-link :to="{ name: 'EditPatient', params: { id: patient.id } }">Editar</router-link>
           </td>
