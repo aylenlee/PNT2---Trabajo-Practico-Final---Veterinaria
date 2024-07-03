@@ -5,7 +5,7 @@ import Turnos from './views/TurnosView.vue';
 import Adopcion from './views/AdopcionView.vue';
 import AdminReport from './views/AdminReportView.vue';
 import Login from './components/Login.vue';
-import Dashboard from './components/Dashboard.vue';
+import Dashboard from './views/Dashboard.vue';
 import Logout from './components/Logout.vue';
 import EditPatient from './views/EditPatientView.vue'
 import DeletePatient from './views/DeletePatientView.vue'
